@@ -13,7 +13,7 @@ function Hero() {
 
         <div className="flex items-center pl-4 md:pl-10">
           <img
-            src="src/assets/images/logo.png"
+            src="https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/logo.png"
             alt="Logo"
             className="h-16 md:h-20 object-contain cursor-pointer"
             onClick={() => scrollToSection("home")}

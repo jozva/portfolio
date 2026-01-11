@@ -42,7 +42,7 @@ function Home() {
         <div className="hidden md:block absolute left-[-120px] top-0 h-full w-[250px] bg-[#E0E0E0] skew-x-[-12deg]"></div>
 
         <img
-          src="src/assets/images/josva-photo.jpeg"
+          src="https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/josva-photo.jpeg"
           alt="profile"
           className="h-full w-full object-cover xl:h-[75%] lg:h-[61%] md:w-auto md:object-contain z-10 relative bottom-0"
         />
