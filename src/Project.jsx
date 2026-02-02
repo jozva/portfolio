@@ -2,26 +2,39 @@ import React from 'react';
 import { SiHtml5, SiCss3,SiReact, SiTailwindcss, SiNodedotjs, SiMongodb, SiGithub, } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { SiJavascript } from 'react-icons/si';
+import ottImage from "../src/assets/images/ottImage.png";
 
 const Projects = () => {
   const projectData = [
-    {
+
+   
+      {
       id: 1,
-      title: "LANDING PAGE ",
-      description: "A productivity app to manage daily tasks with drag-and-drop functionality, categories, and progress tracking.",
-      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/landing-page.png", 
-      techStack: [<SiHtml5 />, <SiCss3 />, ],
-      liveLink: "https://lighthearted-pastelito-9a4872.netlify.app",
-      githubLink: "https://github.com/jozva/tailwind",
+      title: "EVENT MANAGEMENT",
+      description: "A full-stack e-commerce solution with user authentication, product search, cart functionality, and payment gateway integration.",
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/event-management.png", 
+      techStack: [<SiReact />, <SiTailwindcss />, <SiNodedotjs />, <SiMongodb />],
+      liveLink: "https://event-management-v0.netlify.app",
+      githubLink: "https://github.com/jozva/e-commerce-client",
     },
-    {
+     {
       id: 2,
-      title: "EXPENSE CALCULATOR",
-      description: "A minimalist, brutalist style personal portfolio website built with React and Tailwind CSS, featuring responsive design and custom animations.",
-      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/expense-calculator.png", 
-      techStack: [<SiHtml5 />, <SiCss3 />,<SiJavascript />,],
-      liveLink: "https://todo-task-v1.netlify.app/",
-      githubLink: "https://github.com/jozva/todo-task",
+      title: "OTT PLATFORM",
+      description: "Implemented secure video streaming using Cloudinary CDN, enabling reliable playback, fast delivery, and scalable media management for an OTT platform.",
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/ottImage.png", 
+      techStack: [<SiReact />, <SiTailwindcss />, <SiGithub />,<SiMongodb />],
+      liveLink: "https://gleaming-buttercream-d89021.netlify.app",
+      githubLink: "https://github.com/jozva/reset-flow-client",
+    },
+   
+     {
+      id: 3,
+      title: "PASSWORD RESET FLOW",
+      description: "A productivity app to manage daily tasks with drag-and-drop functionality, categories, and progress tracking.",
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/reset-flow.png", 
+      techStack: [<SiReact />, <SiTailwindcss />, <SiGithub />,<SiMongodb />],
+      liveLink: "https://gleaming-buttercream-d89021.netlify.app",
+      githubLink: "https://github.com/jozva/reset-flow-client",
     },
     {
       id: 3,
@@ -31,27 +44,16 @@ const Projects = () => {
       techStack: [<SiReact />, <SiTailwindcss />, <SiGithub />],
       liveLink: "https://kanban-board0.netlify.app/",
       githubLink: "https://github.com/jozva/kanban-board",
-    },
-
-
-  
-    {
-      id: 4,
-      title: "PASSWORD RESET FLOW",
-      description: "A productivity app to manage daily tasks with drag-and-drop functionality, categories, and progress tracking.",
-      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/reset-flow.png", 
-      techStack: [<SiReact />, <SiTailwindcss />, <SiGithub />,<SiMongodb />],
-      liveLink: "https://gleaming-buttercream-d89021.netlify.app",
-      githubLink: "https://github.com/jozva/reset-flow-client",
-    },
-      {
-      id: 5,
-      title: "EVENT MANAGEMENT",
-      description: "A full-stack e-commerce solution with user authentication, product search, cart functionality, and payment gateway integration.",
-      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/event-management.png", 
-      techStack: [<SiReact />, <SiTailwindcss />, <SiNodedotjs />, <SiMongodb />],
-      liveLink: "https://event-management-v0.netlify.app",
-      githubLink: "https://github.com/jozva/e-commerce-client",
+    },  
+   
+       {
+      id: 2,
+      title: "EXPENSE CALCULATOR",
+      description: "A minimalist, brutalist style personal portfolio website built with React and Tailwind CSS, featuring responsive design and custom animations.",
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/expense-calculator.png", 
+      techStack: [<SiHtml5 />, <SiCss3 />,<SiJavascript />,],
+      liveLink: "https://todo-task-v1.netlify.app/",
+      githubLink: "https://github.com/jozva/todo-task",
     },
   ];
 
