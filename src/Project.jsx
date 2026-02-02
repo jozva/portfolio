@@ -22,8 +22,8 @@ const Projects = () => {
       description: "Implemented secure video streaming using Cloudinary CDN, enabling reliable playback, fast delivery, and scalable media management for an OTT platform.",
       image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/ott-image.png", 
       techStack: [<SiReact />, <SiTailwindcss />, <SiGithub />,<SiMongodb />],
-      liveLink: "https://gleaming-buttercream-d89021.netlify.app",
-      githubLink: "https://github.com/jozva/reset-flow-client",
+      liveLink: "https://ott-client.netlify.app/",
+      githubLink: "https://github.com/jozva/ott-client",
     },
   
      {
