@@ -26,7 +26,7 @@ const Projects = () => {
       liveLink: "https://gleaming-buttercream-d89021.netlify.app",
       githubLink: "https://github.com/jozva/reset-flow-client",
     },
-   
+  
      {
       id: 3,
       title: "PASSWORD RESET FLOW",
@@ -95,7 +95,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-
+                  {/* edit for git cjeck */}
               <div className="flex gap-4 mt-auto">
                 <a href={project.liveLink} target="_blank" rel="noopener noreferrer" 
                    className="flex-1 flex items-center justify-center gap-2 border-2 border-black py-3  px-2 lg:text-xs xl:text-sm text-sm font-bold tracking-widest uppercase hover:bg-black hover:text-white transition-all duration-300">
@@ -111,7 +111,7 @@ const Projects = () => {
           </div>
         ))}
 
-      </div>
+      </div> 
     </section>
   );
 };
