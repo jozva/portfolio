@@ -2,7 +2,6 @@ import React from 'react';
 import { SiHtml5, SiCss3,SiReact, SiTailwindcss, SiNodedotjs, SiMongodb, SiGithub, } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { SiJavascript } from 'react-icons/si';
-import ottImage from "../src/assets/images/ottImage.png";
 
 const Projects = () => {
   const projectData = [
@@ -21,7 +20,7 @@ const Projects = () => {
       id: 2,
       title: "OTT PLATFORM",
       description: "Implemented secure video streaming using Cloudinary CDN, enabling reliable playback, fast delivery, and scalable media management for an OTT platform.",
-      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/ottImage.png", 
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/ott-image.png", 
       techStack: [<SiReact />, <SiTailwindcss />, <SiGithub />,<SiMongodb />],
       liveLink: "https://gleaming-buttercream-d89021.netlify.app",
       githubLink: "https://github.com/jozva/reset-flow-client",
@@ -37,7 +36,7 @@ const Projects = () => {
       githubLink: "https://github.com/jozva/reset-flow-client",
     },
     {
-      id: 3,
+      id: 4,
       title: "KANBAN BOARD",
       description: "A productivity app to manage daily tasks with drag-and-drop functionality, categories, and progress tracking.",
       image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/kanban-board.png", 
@@ -47,7 +46,7 @@ const Projects = () => {
     },  
    
        {
-      id: 2,
+      id: 5,
       title: "EXPENSE CALCULATOR",
       description: "A minimalist, brutalist style personal portfolio website built with React and Tailwind CSS, featuring responsive design and custom animations.",
       image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/expense-calculator.png", 
