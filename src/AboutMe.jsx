@@ -49,7 +49,7 @@ const AboutMe = () => {
        modern frontend designs. My focus is on writing clean code and delivering digital solutions that solve real-world problems.
       </p>
 
-      <div className="flex items-center gap-4 mb-4">
+      <div className="flex items-center gap-4 mb-4 ">
         <a className=" border-black px-6 py-3 font-bold tracking-[0.2em] text-xs bg-black  hover:bg-gray-200 border-3 hover:text-black text-white transition-all duration-300 uppercase" 
         href="https://drive.google.com/file/d/1ldiNVfT0LNGNiiEmqP9AYsHu3H7bbNSE/view" target="_blank" >View CV</a>
       </div>
