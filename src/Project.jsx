@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import certificate from "../src/assets/images/certificate.jpg";
-import { SiReact, SiTailwindcss, SiNodedotjs, SiMongodb, SiGithub } from "react-icons/si";
+import { SiReact, SiTailwindcss, SiNodedotjs, SiMongodb, SiGithub, SiSupabase } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import medacareImg from "./assets/images/medcare.png"
 
 const Projects = () => {
   const [showCert, setShowCert] = useState(false);
@@ -12,7 +13,7 @@ const Projects = () => {
     {
       id: 1,
       title: "EVENT MANAGEMENT",
-      description: "Productivity full-stack e-commerce solution with user authentication, event search, cart functionality, and payment gateway integration.",
+      description: "Productivity full-stack event management platform designed to simplify the process of discovering and booking events. Users can browse available events, view event details, and make bookings through an intuitive and responsive interface.",
       image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/event-management.png",
       techStack: [<SiTailwindcss />, <SiReact />, <SiNodedotjs />, <SiMongodb />, <SiGithub />],
       liveLink: "https://event-management-v0.netlify.app",
@@ -22,22 +23,33 @@ const Projects = () => {
     {
       id: 2,
       title: "OTT PLATFORM",
-      description: "Implemented secure video streaming using Cloudinary CDN, enabling reliable playback, fast delivery, and scalable media management for an OTT platform.",
+      description: "Full-stack OTT streaming platform that allows users to browse and explore movies or shows through a clean and modern interface. The system provides dynamic content loading, category-based browsing, and structured backend APIs to manage media data.",
       image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/ott-image.png",
       techStack: [<SiTailwindcss />, <SiReact />, <SiNodedotjs />, <SiMongodb />, <SiGithub />],
       liveLink: "https://ott-client.netlify.app/",
       frontendRepo: "https://github.com/jozva/ott-client",
       backendRepo: "https://github.com/jozva/ott-server",
     },
+
     {
       id: 3,
-      title: "LOGIN PAGE",
-      description: "Built a secure authentication system with login validation and password reset flow, ensuring protected and reliable user access.",
-      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/reset-flow.png",
+      title: "MEDCARE",
+      description: "MedCare is a full-stack healthcare management app that allows doctors to manage patients, update vitals, and prescribe medications, while patients can track their health data and daily medication intake through a role-based dashboard.",
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/medcare.png",
+      techStack: [<SiTailwindcss />, <SiReact />, <SiNodedotjs />, <SiSupabase/>, <SiGithub />],
+      liveLink: "https://medicaresites.netlify.app/",
+      frontendRepo: "https://github.com/jozva/medcare-client",
+      backendRepo: "https://github.com/jozva/medcare-server",
+    },
+    {
+      id: 4,
+      title: "PROFILE PAGE",
+      description: "Built a full-stack web application that allows users to create and manage a professional profile with education, experience, skills, certifications, and resume upload. Implemented an AI-powered bio generator that automatically creates a professional summary based on user data.",
+      image: "https://raw.githubusercontent.com/jozva/portfolio/main/src/assets/images/profile-project.png",
       techStack: [<SiTailwindcss />, <SiReact />, <SiNodedotjs />, <SiMongodb />, <SiGithub />],
-      liveLink: "https://gleaming-buttercream-d89021.netlify.app",
-      frontendRepo: "https://github.com/jozva/reset-flow-client",
-      backendRepo: "https://github.com/jozva/reset-flow-server",
+      liveLink: "https://gidysite.netlify.app/",
+      frontendRepo: "https://github.com/jozva/gidy-client",
+      backendRepo: "https://github.com/jozva/gidy-server",
     },
   ];
 
