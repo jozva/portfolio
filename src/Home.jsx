@@ -22,7 +22,7 @@ function Home() {
               <SocialIcon url="https://www.linkedin.com/in/beniyel-josva-58825625b/" style={{ height: "40px", width: "40px" }} target="_blank" />
             </div>
             <div className="flex items-center justify-center rounded transition hover:scale-110">
-              <SocialIcon url="https://github.com/jozva?tab=repositories" style={{ height: "40px", width: "40px" }} target="_blank" />
+              <SocialIcon url="https://github.com/jozva" style={{ height: "40px", width: "40px" }} target="_blank" />
             </div>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=kingsonjozva@email.com"
